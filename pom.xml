@@ -27,6 +27,13 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <distributionManagement>
+   <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://35.224.35.146:8081/repository/maven-deploy/</url>
+   </snapshotRepository>
+  </distributionManagement>
 
   <build>
     <finalName>apple-project</finalName>
